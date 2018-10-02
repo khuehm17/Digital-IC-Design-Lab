@@ -1,0 +1,6 @@
+cau02
+fulladder4bit:comb_3|
+fulladder4bit:comb_3|fulladder1bit:stg0|
+fulladder4bit:comb_3|fulladder1bit:stg1|
+fulladder4bit:comb_3|fulladder1bit:stg2|
+fulladder4bit:comb_3|fulladder1bit:stg3|

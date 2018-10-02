@@ -1,0 +1,3 @@
+module cau1(SW, LEDR);
+	input [9:0]SW;
+	output []

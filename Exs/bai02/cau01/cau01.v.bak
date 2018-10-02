@@ -1,0 +1,3 @@
+module cau01(SW[2:0], LEDG[1:0]);
+	input SW[2:0];
+	output LEDG[1:0];

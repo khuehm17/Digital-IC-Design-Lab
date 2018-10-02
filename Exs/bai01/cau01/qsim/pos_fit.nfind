@@ -1,0 +1,10 @@
+cau1
+x1,input,user_entered
+x2,input,user_entered
+x3,input,user_entered
+y,output,user_entered
+y~0,comb,compiler_generated
+~ASDO~,input,compiler_generated
+~LVDS195p/nCEO~,output,compiler_generated
+~nCSO~,input,compiler_generated
+,hierarchy,user_entered

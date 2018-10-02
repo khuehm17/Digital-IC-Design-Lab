@@ -1,0 +1,14 @@
+cau2
+a,comb,user_entered
+b,comb,user_entered
+c,comb,user_entered
+comb,comb,
+d,comb,user_entered
+g,output,user_entered
+h,output,user_entered
+x1,input,user_entered
+x2,input,user_entered
+x3,input,user_entered
+x4,input,user_entered
+y,output,user_entered
+,hierarchy,user_entered

@@ -1,0 +1,4 @@
+# Compile of cau1.v was successful.
+# Compile of cau1.vt was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim +altera -do cau1_run_msim_rtl_verilog.do -l msim_transcript -gui work.cau1

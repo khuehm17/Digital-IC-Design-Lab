@@ -1,0 +1,15 @@
+cau01
+LEDG,bus,user_entered
+LEDG[0],output,user_entered
+LEDG[1],output,user_entered
+SW,bus,user_entered
+SW[0],input,user_entered
+SW[1],input,user_entered
+SW[2],input,user_entered
+~ASDO~,input,compiler_generated
+~LVDS195p/nCEO~,output,compiler_generated
+~nCSO~,input,compiler_generated
+fulladder1bit:comb_3|cout~0,comb,compiler_generated
+fulladder1bit:comb_3|s~0,comb,compiler_generated
+,hierarchy,user_entered
+fulladder1bit:comb_3,hierarchy,user_entered

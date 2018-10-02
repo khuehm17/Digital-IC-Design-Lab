@@ -1,0 +1,15 @@
+cau01
+LEDG,bus,user_entered
+LEDG[0],output,user_entered
+LEDG[1],output,user_entered
+SW,bus,user_entered
+SW[0],input,user_entered
+SW[1],input,user_entered
+SW[2],input,user_entered
+fulladder1bit:comb_3|a,comb,user_entered
+fulladder1bit:comb_3|b,comb,user_entered
+fulladder1bit:comb_3|cin,comb,user_entered
+fulladder1bit:comb_3|cout,comb,user_entered
+fulladder1bit:comb_3|s,comb,user_entered
+,hierarchy,user_entered
+fulladder1bit:comb_3,hierarchy,user_entered

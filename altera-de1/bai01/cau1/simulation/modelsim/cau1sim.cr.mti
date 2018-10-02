@@ -1,0 +1,15 @@
+D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/cau1.v {1 {vlog -work work D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/cau1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module cau1
+
+Top level modules:
+	cau1
+
+} {} {}} D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/simulation/modelsim/cau1.vt {1 {vlog -work work D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/simulation/modelsim/cau1.vt
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module cau1_vlg_tst
+
+Top level modules:
+	cau1_vlg_tst
+
+} {} {}}
