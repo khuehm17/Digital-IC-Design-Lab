@@ -1,0 +1,28 @@
+|cau4
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+HEX0[6] <= dec3bit:dec.port1
+HEX0[5] <= dec3bit:dec.port1
+HEX0[4] <= dec3bit:dec.port1
+HEX0[3] <= dec3bit:dec.port1
+HEX0[2] <= dec3bit:dec.port1
+HEX0[1] <= dec3bit:dec.port1
+HEX0[0] <= dec3bit:dec.port1
+
+
+|cau4|dec3bit:dec
+c[0] => Decoder0.IN1
+c[0] => leds[0].DATAIN
+c[1] => Decoder0.IN0
+c[1] => leds[6].DATAIN
+c[2] => ~NO_FANOUT~
+leds[6] <= c[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= <GND>
+leds[4] <= <GND>
+leds[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[0] <= c[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

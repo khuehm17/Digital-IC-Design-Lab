@@ -1,0 +1,86 @@
+|cau5
+SW[7] => SW[7].IN4
+SW[8] => SW[8].IN4
+SW[9] => SW[9].IN4
+HEX0[6] <= DECODER_HEX0:comb_3.port1
+HEX0[5] <= DECODER_HEX0:comb_3.port1
+HEX0[4] <= DECODER_HEX0:comb_3.port1
+HEX0[3] <= DECODER_HEX0:comb_3.port1
+HEX0[2] <= DECODER_HEX0:comb_3.port1
+HEX0[1] <= DECODER_HEX0:comb_3.port1
+HEX0[0] <= DECODER_HEX0:comb_3.port1
+HEX1[6] <= DECODER_HEX1:comb_4.port1
+HEX1[5] <= DECODER_HEX1:comb_4.port1
+HEX1[4] <= DECODER_HEX1:comb_4.port1
+HEX1[3] <= DECODER_HEX1:comb_4.port1
+HEX1[2] <= DECODER_HEX1:comb_4.port1
+HEX1[1] <= DECODER_HEX1:comb_4.port1
+HEX1[0] <= DECODER_HEX1:comb_4.port1
+HEX2[6] <= DECODER_HEX2:comb_5.port1
+HEX2[5] <= DECODER_HEX2:comb_5.port1
+HEX2[4] <= DECODER_HEX2:comb_5.port1
+HEX2[3] <= DECODER_HEX2:comb_5.port1
+HEX2[2] <= DECODER_HEX2:comb_5.port1
+HEX2[1] <= DECODER_HEX2:comb_5.port1
+HEX2[0] <= DECODER_HEX2:comb_5.port1
+HEX3[6] <= DECODER_HEX3:comb_6.port1
+HEX3[5] <= DECODER_HEX3:comb_6.port1
+HEX3[4] <= DECODER_HEX3:comb_6.port1
+HEX3[3] <= DECODER_HEX3:comb_6.port1
+HEX3[2] <= DECODER_HEX3:comb_6.port1
+HEX3[1] <= DECODER_HEX3:comb_6.port1
+HEX3[0] <= DECODER_HEX3:comb_6.port1
+
+
+|cau5|DECODER_HEX0:comb_3
+c[7] => Equal0.IN5
+c[8] => Equal0.IN4
+c[9] => Equal0.IN3
+led0[6] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led0[5] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led0[4] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led0[3] <= <VCC>
+led0[2] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led0[1] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led0[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|DECODER_HEX1:comb_4
+c[7] => Equal0.IN5
+c[8] => Equal0.IN4
+c[9] => Equal0.IN3
+led1[6] <= <VCC>
+led1[5] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led1[4] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led1[3] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led1[2] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led1[1] <= <VCC>
+led1[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|DECODER_HEX2:comb_5
+c[7] => Equal0.IN5
+c[8] => Equal0.IN4
+c[9] => Equal0.IN3
+led2[6] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led2[5] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led2[4] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led2[3] <= <VCC>
+led2[2] <= <VCC>
+led2[1] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led2[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|DECODER_HEX3:comb_6
+c[7] => Equal0.IN5
+c[8] => Equal0.IN4
+c[9] => Equal0.IN3
+led3[6] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led3[5] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led3[4] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+led3[3] <= <VCC>
+led3[2] <= <VCC>
+led3[1] <= <VCC>
+led3[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

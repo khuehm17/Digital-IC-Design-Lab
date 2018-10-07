@@ -1,0 +1,17 @@
+module bai4(SW, HEX0);     
+input  [2:0]SW;     
+output  [0:6]HEX0;         
+dec3bit  dec(SW[2:0],HEX0);  
+endmodule
+module  dec3bit(c,leds);      
+input [2:0]c;      
+output reg [0:6]leds;      
+always @(c)      
+case (c)     //abcdefg //0123456  
+0: leds = 7'b1001000;//H  
+1: leds = 7'b0110000;//E  
+2: leds = 7'b1110001;//L  
+3: leds = 7'b0000001;//O  
+default: leds = 7'bx;      
+endcase 
+ endmodule

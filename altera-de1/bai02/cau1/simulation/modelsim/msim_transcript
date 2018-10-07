@@ -1,0 +1,27 @@
+# Reading C:/Program Files/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do cau1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Program Files\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Program Files\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/Workspace/GIT/IC-Design/altera-de1/bai02/cau1 {F:/Workspace/GIT/IC-Design/altera-de1/bai02/cau1/cau1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cau1
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	cau1
+# 
+vsim work.cau1
+# vsim work.cau1 
+# Loading work.cau1
+# ** Error: (vsim-3037) F:/Workspace/GIT/IC-Design/altera-de1/bai02/cau1/cau1.v(4): Missing instance name in instantiation of 'seg7'.
+# 
+#         Region: /cau1
+# Error loading design

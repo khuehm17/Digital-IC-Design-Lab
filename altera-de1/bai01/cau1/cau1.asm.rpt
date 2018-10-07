@@ -1,5 +1,5 @@
 Assembler report for cau1
-Fri Sep 28 18:15:59 2018
+Thu Oct 04 13:14:31 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Sep 28 18:15:59 2018 ;
+; Assembler Status      ; Successful - Thu Oct 04 13:14:31 2018 ;
 ; Revision Name         ; cau1                                  ;
 ; Top-level Entity Name ; cau1                                  ;
 ; Family                ; Cyclone II                            ;
@@ -117,14 +117,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Fri Sep 28 18:15:52 2018
+    Info: Processing started: Thu Oct 04 13:14:26 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off cau1 -c cau1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4595 megabytes
-    Info: Processing ended: Fri Sep 28 18:16:00 2018
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 4593 megabytes
+    Info: Processing ended: Thu Oct 04 13:14:31 2018
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

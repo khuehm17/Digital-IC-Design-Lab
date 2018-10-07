@@ -1,5 +1,5 @@
 Flow report for cau1
-Sat Sep 29 18:32:00 2018
+Thu Oct 04 13:14:40 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sat Sep 29 18:32:00 2018      ;
+; Flow Status                        ; Successful - Thu Oct 04 13:14:40 2018      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; cau1                                       ;
 ; Top-level Entity Name              ; cau1                                       ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/28/2018 18:15:07 ;
+; Start date & time ; 10/04/2018 13:14:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; cau1                ;
 +-------------------+---------------------+
@@ -75,7 +75,8 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 93328261261391.153813330506756 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 93328261261391.153863364710104 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                             ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
@@ -91,23 +92,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:14     ; 1.0                     ; 4620 MB             ; 00:00:06                           ;
-; Fitter                    ; 00:00:27     ; 1.2                     ; 5041 MB             ; 00:00:18                           ;
-; Assembler                 ; 00:00:07     ; 1.0                     ; 4587 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4593 MB             ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4547 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4558 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4555 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4555 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
-; Total                     ; 00:01:23     ; --                      ; --                  ; 00:00:57                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4616 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:12     ; 1.2                     ; 5013 MB             ; 00:00:13                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4585 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4588 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4545 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:25                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -121,17 +111,6 @@ applicable agreement for further details.
 ; Assembler                 ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; KhueHM           ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -143,17 +122,6 @@ quartus_fit --read_settings_files=off --write_settings_files=off cau1 -c cau1
 quartus_asm --read_settings_files=off --write_settings_files=off cau1 -c cau1
 quartus_sta cau1 -c cau1
 quartus_eda --read_settings_files=off --write_settings_files=off cau1 -c cau1
-quartus_eda --read_settings_files=on --write_settings_files=off cau1 -c cau1 --gen_testbench
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cau1 -c cau1 --vector_source=D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/Waveform.vwf --testbench_file=./simulation/qsim/cau1.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cau1 -c cau1
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cau1 -c cau1 --vector_source=D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/Waveform1.vwf --testbench_file=./simulation/qsim/cau1.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cau1 -c cau1
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cau1 -c cau1 --vector_source=D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/Waveform2.vwf --testbench_file=./simulation/qsim/cau1.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cau1 -c cau1
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cau1 -c cau1 --vector_source=D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/Waveform.vwf --testbench_file=./simulation/qsim/cau1.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cau1 -c cau1
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cau1 -c cau1 --vector_source=D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/Waveform.vwf --testbench_file=./simulation/qsim/cau1.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cau1 -c cau1
 
 
 

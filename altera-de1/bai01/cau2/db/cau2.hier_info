@@ -1,0 +1,40 @@
+|cau2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => ~NO_FANOUT~
+SW[9] => SW[9].IN1
+LEDR[0] <= mux_2_1:comb_3.port3
+LEDR[1] <= mux_2_1:comb_3.port3
+LEDR[2] <= mux_2_1:comb_3.port3
+LEDR[3] <= mux_2_1:comb_3.port3
+
+
+|cau2|mux_2_1:comb_3
+x[0] => m.IN0
+x[1] => m.IN0
+x[2] => m.IN0
+x[3] => m.IN0
+y[0] => m.IN0
+y[1] => m.IN0
+y[2] => m.IN0
+y[3] => m.IN0
+s => m.IN1
+s => m.IN1
+s => m.IN1
+s => m.IN1
+s => m.IN1
+s => m.IN1
+s => m.IN1
+s => m.IN1
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[3] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,28 @@
+|cau7
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+HEX0[6] <= DECODER:comb_3.port1
+HEX0[5] <= DECODER:comb_3.port1
+HEX0[4] <= DECODER:comb_3.port1
+HEX0[3] <= DECODER:comb_3.port1
+HEX0[2] <= DECODER:comb_3.port1
+HEX0[1] <= DECODER:comb_3.port1
+HEX0[0] <= DECODER:comb_3.port1
+
+
+|cau7|DECODER:comb_3
+c[0] => Decoder0.IN3
+c[1] => Decoder0.IN2
+c[2] => Decoder0.IN1
+c[3] => Decoder0.IN0
+led0[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led0[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led0[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led0[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led0[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led0[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
