@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Workspace\GIT\IC-Design\altera-de1\bai03\cau1\simulation\modelsim
+vcau1
+!i10b 1
+!s100 GD8YD@zcOzD0Ai74AhoTU1
+IdlUJTol9[k0ijFnEc7`?>2
+VP<A0BG9=oaU=Ad@Z30U6V3
+Z1 dE:\Workspace\GIT\IC-Design\altera-de1\bai03\cau1\simulation\modelsim
+Z2 w1539239381
+Z3 8E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/cau1.v
+Z4 FE:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/cau1.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1539239581.186000
+Z7 !s107 E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/cau1.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1|E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/cau1.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1 -O0
+vRS_FF
+!i10b 1
+!s100 [g0G;NF19bI2FbkF4TzE@3
+INWLT5Z<oGX_mZVdoFfz=l3
+V?aZNZPf;FfcKhc`IC?oE12
+R1
+R2
+R3
+R4
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@r@s_@f@f

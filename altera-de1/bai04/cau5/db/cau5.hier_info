@@ -1,0 +1,38 @@
+|cau5
+SW[0] => SW[0].IN1
+KEY[0] => KEY[0].IN4
+KEY[1] => KEY[1].IN4
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= LEDR[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= LEDR[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= FF_D:comb_6.port3
+
+
+|cau5|FF_D:comb_3
+d => q.DATAB
+r => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|FF_D:comb_4
+d => q.DATAB
+r => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|FF_D:comb_5
+d => q.DATAB
+r => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|FF_D:comb_6
+d => q.DATAB
+r => q.OUTPUTSELECT
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

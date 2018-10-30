@@ -1,0 +1,14 @@
+
+
+
+module T_latch(t, rst, clk, q);
+	input t, rst, clk;
+	output reg q;
+	
+	always@(posedge clk or negedge rst)
+		if(!rst)
+			q <= 1'b0;
+		else
+			if(t)
+				q <= ~q;
+endmodule

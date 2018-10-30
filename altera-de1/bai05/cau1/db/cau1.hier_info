@@ -1,0 +1,78 @@
+|cau1
+SW[0] => SW[0].IN1
+KEY[0] => KEY[0].IN4
+HEX0[0] <= Decoder_HEX:comb_9.port1
+HEX0[1] <= Decoder_HEX:comb_9.port1
+HEX0[2] <= Decoder_HEX:comb_9.port1
+HEX0[3] <= Decoder_HEX:comb_9.port1
+HEX0[4] <= Decoder_HEX:comb_9.port1
+HEX0[5] <= Decoder_HEX:comb_9.port1
+HEX0[6] <= Decoder_HEX:comb_9.port1
+
+
+|cau1|FF_T:comb_3
+t => m2.IN1
+t => m1.IN1
+clk => clk.IN1
+q <= FF_D:comb_8.port2
+
+
+|cau1|FF_T:comb_3|FF_D:comb_8
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau1|FF_T:comb_4
+t => m2.IN1
+t => m1.IN1
+clk => clk.IN1
+q <= FF_D:comb_8.port2
+
+
+|cau1|FF_T:comb_4|FF_D:comb_8
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau1|FF_T:comb_6
+t => m2.IN1
+t => m1.IN1
+clk => clk.IN1
+q <= FF_D:comb_8.port2
+
+
+|cau1|FF_T:comb_6|FF_D:comb_8
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau1|FF_T:comb_8
+t => m2.IN1
+t => m1.IN1
+clk => clk.IN1
+q <= FF_D:comb_8.port2
+
+
+|cau1|FF_T:comb_8|FF_D:comb_8
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau1|Decoder_HEX:comb_9
+c[0] => Decoder0.IN3
+c[1] => Decoder0.IN2
+c[2] => Decoder0.IN1
+c[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/cau1.v
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/output_files/Waveform.vwf
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai03/cau1/db/cau1.cbx.xml
+design_name = cau1
+instance = comp, \SW[1]~I\, SW[1], cau1, 1
+instance = comp, \SW[0]~I\, SW[0], cau1, 1
+instance = comp, \SW[2]~I\, SW[2], cau1, 1
+instance = comp, \comb_3|comb~1\, comb_3|comb~1, cau1, 1
+instance = comp, \comb_3|comb~0\, comb_3|comb~0, cau1, 1
+instance = comp, \LEDR[0]~I\, LEDR[0], cau1, 1
+instance = comp, \LEDR[1]~I\, LEDR[1], cau1, 1

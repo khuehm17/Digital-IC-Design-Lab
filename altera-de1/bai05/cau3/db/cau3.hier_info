@@ -1,0 +1,104 @@
+|cau3
+SW[0] => SW[0].IN1
+KEY[0] => KEY[0].IN8
+KEY[1] => KEY[1].IN8
+HEX0[0] <= Decoder_HEX:comb_18.port1
+HEX0[1] <= Decoder_HEX:comb_18.port1
+HEX0[2] <= Decoder_HEX:comb_18.port1
+HEX0[3] <= Decoder_HEX:comb_18.port1
+HEX0[4] <= Decoder_HEX:comb_18.port1
+HEX0[5] <= Decoder_HEX:comb_18.port1
+HEX0[6] <= Decoder_HEX:comb_18.port1
+HEX1[0] <= Decoder_HEX:comb_19.port1
+HEX1[1] <= Decoder_HEX:comb_19.port1
+HEX1[2] <= Decoder_HEX:comb_19.port1
+HEX1[3] <= Decoder_HEX:comb_19.port1
+HEX1[4] <= Decoder_HEX:comb_19.port1
+HEX1[5] <= Decoder_HEX:comb_19.port1
+HEX1[6] <= Decoder_HEX:comb_19.port1
+
+
+|cau3|FF_T:comb_3
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_5
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_7
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_9
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_11
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_13
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_15
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|FF_T:comb_17
+t => q~reg0.ENA
+rst => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|Decoder_HEX:comb_18
+c[0] => Decoder0.IN3
+c[1] => Decoder0.IN2
+c[2] => Decoder0.IN1
+c[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|Decoder_HEX:comb_19
+c[0] => Decoder0.IN3
+c[1] => Decoder0.IN2
+c[2] => Decoder0.IN1
+c[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

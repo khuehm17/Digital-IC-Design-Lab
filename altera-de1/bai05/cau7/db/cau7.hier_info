@@ -1,0 +1,78 @@
+|cau7
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+HEX0[0] <= Decoder_HEX:comb_4.port1
+HEX0[1] <= Decoder_HEX:comb_4.port1
+HEX0[2] <= Decoder_HEX:comb_4.port1
+HEX0[3] <= Decoder_HEX:comb_4.port1
+HEX0[4] <= Decoder_HEX:comb_4.port1
+HEX0[5] <= Decoder_HEX:comb_4.port1
+HEX0[6] <= Decoder_HEX:comb_4.port1
+
+
+|cau7|counter:comb_3
+en => bcd[0]~reg0.ENA
+en => bcd[3]~reg0.ENA
+en => bcd[2]~reg0.ENA
+en => bcd[1]~reg0.ENA
+s => Add0.IN30
+s => Add0.IN31
+s => Add0.IN32
+s => Add0.IN33
+s => Add0.IN34
+s => Add0.IN35
+s => Add0.IN36
+s => Add0.IN37
+s => Add0.IN38
+s => Add0.IN39
+s => Add0.IN40
+s => Add0.IN41
+s => Add0.IN42
+s => Add0.IN43
+s => Add0.IN44
+s => Add0.IN45
+s => Add0.IN46
+s => Add0.IN47
+s => Add0.IN48
+s => Add0.IN49
+s => Add0.IN50
+s => Add0.IN51
+s => Add0.IN52
+s => Add0.IN53
+s => Add0.IN54
+s => Add0.IN55
+s => Add0.IN56
+s => Add0.IN57
+s => Add0.IN58
+s => Add0.IN59
+s => Add0.IN60
+rst => bcd[0]~reg0.ACLR
+rst => bcd[1]~reg0.ACLR
+rst => bcd[2]~reg0.ACLR
+rst => bcd[3]~reg0.ACLR
+clk => bcd[0]~reg0.CLK
+clk => bcd[1]~reg0.CLK
+clk => bcd[2]~reg0.CLK
+clk => bcd[3]~reg0.CLK
+bcd[0] <= bcd[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= bcd[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= bcd[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= bcd[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau7|Decoder_HEX:comb_4
+c[0] => Decoder0.IN3
+c[1] => Decoder0.IN2
+c[2] => Decoder0.IN1
+c[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau4/src/mdl02.v
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau4/src/mdl01.v
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau4/src/cau4.v
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau4/db/cau4.cbx.xml
+design_name = cau4
+instance = comp, \KEY[0]~I\, KEY[0], cau4, 1
+instance = comp, \SW[1]~I\, SW[1], cau4, 1
+instance = comp, \SW[0]~I\, SW[0], cau4, 1
+instance = comp, \comb_3|d~0\, comb_3|d~0, cau4, 1
+instance = comp, \comb_3|comb_8|q\, comb_3|comb_8|q, cau4, 1
+instance = comp, \LEDR[0]~I\, LEDR[0], cau4, 1

@@ -1,0 +1,17 @@
+|cau1
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+LEDR[0] <= RS_FF:comb_3.port3
+LEDR[1] <= RS_FF:comb_3.port4
+
+
+|cau1|RS_FF:comb_3
+R => R_g.IN0
+S => S_g.IN0
+clk => R_g.IN1
+clk => S_g.IN1
+Qa <= Qa.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

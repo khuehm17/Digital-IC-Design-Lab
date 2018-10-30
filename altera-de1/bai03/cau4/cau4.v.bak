@@ -1,0 +1,11 @@
+module FF_D_Ex(d, clk, q);
+	input d, clk;
+	output reg [2:0]q;
+	always @(clk)
+		q0 <= d;
+	always @(posedge)
+		q1 <= d;
+	always @(negedge)
+		q2 <= d;
+			
+	

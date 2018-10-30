@@ -1,0 +1,16 @@
+|cau2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+LEDR[0] <= D_LATCH:comb_3.port0
+LEDR[1] <= D_LATCH:comb_3.port1
+
+
+|cau2|D_LATCH:comb_3
+Qa <= Qa.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= comb.DB_MAX_OUTPUT_PORT_TYPE
+clk => S_g.IN0
+clk => R_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+
+

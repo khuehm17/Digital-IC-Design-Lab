@@ -1,0 +1,15 @@
+module cau2(SW,LEDR);        
+	input [1:0]SW;         
+	output [0:0]LEDR;           
+	D_LATCH (LEDR[0],SW[1],SW[0]); 
+endmodule
+module D_LATCH(Q, Clk, D);  
+	input D, Clk;  
+	output Q;  
+	wire R_g, S_g, Qa, Qb;  
+	nand (S_g, D, Clk);  
+	nand (R_g,~D, Clk);  
+	nand (Qa, S_g, Qb);  
+	nand (Qb, R_g, Qa);  
+	assign Q = Qa;  
+endmodule

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau3/cau3.v
+source_file = 1, E:/Workspace/GIT/IC-Design/altera-de1/bai04/cau3/db/cau3.cbx.xml
+design_name = cau3
+instance = comp, \KEY[0]~I\, KEY[0], cau3, 1
+instance = comp, \SW[0]~I\, SW[0], cau3, 1
+instance = comp, \comb_3|comb_8|q~0\, comb_3|comb_8|q~0, cau3, 1
+instance = comp, \comb_3|comb_8|q\, comb_3|comb_8|q, cau3, 1
+instance = comp, \LEDR[0]~I\, LEDR[0], cau3, 1

@@ -1,0 +1,21 @@
+|cau1
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+KEY[0] => KEY[0].IN1
+LEDR[0] <= FF_D:comb_4.port2
+
+
+|cau1|mux_21:comb_3
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau1|FF_D:comb_4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

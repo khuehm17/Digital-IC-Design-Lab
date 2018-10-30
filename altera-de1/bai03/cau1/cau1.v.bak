@@ -1,0 +1,15 @@
+module  Bai1 (SW,LEDR);        
+input [2:0]SW;         
+output [0:0]LEDR;           
+RS_FF (SW[0],SW[1],SW[2],LEDR[0]); 
+endmodule
+module RS_FF(R,S,clk,Qa,Qb);
+input R,S,clk;
+wire R_g,S_g,Qa,Qb;
+output Qa,Qb;
+and(R_g,R,Clk);
+and(S_g,S,Clk);
+nor(Qa,R_g,Qb);
+nor(Qb,S_g,Qa);
+assign Q=Qa;
+endmodule

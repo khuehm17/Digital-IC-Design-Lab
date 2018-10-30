@@ -1,0 +1,21 @@
+module cau3(SW, LEDR); 
+	input [1:0]SW; 
+	output [0:0]LEDR; 
+	wire Qm; 
+	// sw1-clk..sw0-D..led0-Q
+	FF_D(Qm, SW[0], ~SW[1]);
+	FF_D(LEDR[0], Qm, SW[1]);
+endmodule 
+
+module FF_D(Q, D, Clk); 
+	input Clk, D; 
+	output reg Q;  
+	always@(posedge Clk)    
+	begin     
+		if(D == 1'b1)              
+			Q <= 1'b1;      
+		else        
+			Q <= 1'b0;     
+	end 
+endmodule
+

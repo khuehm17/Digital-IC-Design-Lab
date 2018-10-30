@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Workspace\GIT\IC-Design\altera-de1\bai03\cau5\simulation\qsim
+vcau5
+Z1 !s100 UnI9P`?QVX4PL_H]O>::T0
+Z2 IR6EE[K1?ZmXnTS5kPMGGz1
+Z3 V0IkGVHT@:oEk2R`n`F9?z0
+Z4 dE:\Workspace\GIT\IC-Design\altera-de1\bai03\cau5\simulation\qsim
+Z5 w1539568370
+Z6 8cau5.vo
+Z7 Fcau5.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|cau5.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1539568373.251000
+Z12 !s107 cau5.vo|
+!s101 -O0
+vcau5_vlg_check_tst
+!i10b 1
+Z13 !s100 ;k:0GIznOCdFm:DfUY1Pa0
+Z14 I]FfPPPF04GPX2?a_XU;@R0
+Z15 VD@ENn6HICN51E;5h2f5KM3
+R4
+Z16 w1539568369
+Z17 8cau5.vt
+Z18 Fcau5.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1539568373.521000
+Z20 !s107 cau5.vt|
+Z21 !s90 -work|work|cau5.vt|
+!s101 -O0
+R10
+vcau5_vlg_sample_tst
+!i10b 1
+Z22 !s100 Fkdd^R_dT;UaD[9?^KD0D0
+Z23 IM3e8IGG^cB>C57F8Z:^L10
+Z24 Ve;5IG7K@5dO2ZVaLIi]5>0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vcau5_vlg_vec_tst
+!i10b 1
+Z25 !s100 1QG]L^@iEC@zBYO:P81TK0
+Z26 II5VOPCj7n1kZR9NH0kUkE2
+Z27 VV8?=dU1T6GUO:TMUG0meX0
+R4
+R16
+R17
+R18
+Z28 L0 691
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
