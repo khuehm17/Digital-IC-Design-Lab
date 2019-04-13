@@ -1,0 +1,7 @@
+module cau3(SW, LEDR, HEX0);
+	input [9:0]SW;
+	output [3:0]LEDR;
+	output [6:0]HEX0;
+
+endmodule
+

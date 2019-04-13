@@ -3,6 +3,8 @@ module cau3(SW,LEDR);
 	output [0:0]LEDR;
 	mux_2_1(SW[4:0],SW[7:5],  LEDR[0]);
 endmodule
+
+
 module mux_2_1(x, s, m_out);
 	input [4:0]x;// 
 	input [2:0]s;

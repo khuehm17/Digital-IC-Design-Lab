@@ -1,0 +1,128 @@
+|cau3
+SW[0] => SW[0].IN1
+SW[1] => ~NO_FANOUT~
+KEY[0] => KEY[0].IN1
+CLOCK_50 => CLOCK_50.IN1
+HEX0[0] <= decoder_FPGA:comb_4.port1
+HEX0[1] <= decoder_FPGA:comb_4.port1
+HEX0[2] <= decoder_FPGA:comb_4.port1
+HEX0[3] <= decoder_FPGA:comb_4.port1
+HEX0[4] <= decoder_FPGA:comb_4.port1
+HEX0[5] <= decoder_FPGA:comb_4.port1
+HEX0[6] <= decoder_FPGA:comb_4.port1
+HEX1[0] <= decoder_FPGA:comb_5.port1
+HEX1[1] <= decoder_FPGA:comb_5.port1
+HEX1[2] <= decoder_FPGA:comb_5.port1
+HEX1[3] <= decoder_FPGA:comb_5.port1
+HEX1[4] <= decoder_FPGA:comb_5.port1
+HEX1[5] <= decoder_FPGA:comb_5.port1
+HEX1[6] <= decoder_FPGA:comb_5.port1
+HEX2[0] <= decoder_FPGA:comb_36.port1
+HEX2[1] <= decoder_FPGA:comb_36.port1
+HEX2[2] <= decoder_FPGA:comb_36.port1
+HEX2[3] <= decoder_FPGA:comb_36.port1
+HEX2[4] <= decoder_FPGA:comb_36.port1
+HEX2[5] <= decoder_FPGA:comb_36.port1
+HEX2[6] <= decoder_FPGA:comb_36.port1
+HEX3[0] <= decoder_FPGA:comb_67.port1
+HEX3[1] <= decoder_FPGA:comb_67.port1
+HEX3[2] <= decoder_FPGA:comb_67.port1
+HEX3[3] <= decoder_FPGA:comb_67.port1
+HEX3[4] <= decoder_FPGA:comb_67.port1
+HEX3[5] <= decoder_FPGA:comb_67.port1
+HEX3[6] <= decoder_FPGA:comb_67.port1
+
+
+|cau3|count_and_delay:comb_3
+reset => dem.OUTPUTSELECT
+reset => dem.OUTPUTSELECT
+reset => dem.OUTPUTSELECT
+enable => dem.OUTPUTSELECT
+enable => dem.OUTPUTSELECT
+enable => dem.OUTPUTSELECT
+clock => dem[0]~reg0.CLK
+clock => dem[1]~reg0.CLK
+clock => dem[2]~reg0.CLK
+clock => delay[0].CLK
+clock => delay[1].CLK
+clock => delay[2].CLK
+clock => delay[3].CLK
+clock => delay[4].CLK
+clock => delay[5].CLK
+clock => delay[6].CLK
+clock => delay[7].CLK
+clock => delay[8].CLK
+clock => delay[9].CLK
+clock => delay[10].CLK
+clock => delay[11].CLK
+clock => delay[12].CLK
+clock => delay[13].CLK
+clock => delay[14].CLK
+clock => delay[15].CLK
+clock => delay[16].CLK
+clock => delay[17].CLK
+clock => delay[18].CLK
+clock => delay[19].CLK
+clock => delay[20].CLK
+clock => delay[21].CLK
+clock => delay[22].CLK
+clock => delay[23].CLK
+clock => delay[24].CLK
+clock => delay[25].CLK
+dem[0] <= dem[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dem[1] <= dem[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dem[2] <= dem[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|decoder_FPGA:comb_4
+c[0] => Decoder0.IN2
+c[1] => Decoder0.IN1
+c[2] => Decoder0.IN0
+hex[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|decoder_FPGA:comb_5
+c[0] => Decoder0.IN2
+c[1] => Decoder0.IN1
+c[2] => Decoder0.IN0
+hex[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|decoder_FPGA:comb_36
+c[0] => Decoder0.IN2
+c[1] => Decoder0.IN1
+c[2] => Decoder0.IN0
+hex[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau3|decoder_FPGA:comb_67
+c[0] => Decoder0.IN2
+c[1] => Decoder0.IN1
+c[2] => Decoder0.IN0
+hex[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+hex[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

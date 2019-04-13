@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Workspace\GIT\IC-Design\altera-de1\bai05\cau6\simulation\modelsim
+vcau6
+!i10b 1
+!s100 <ODU^]TmndlVOYhOBPLMM3
+I?:Q_;?bjiX`CJG52_gYf]0
+Vg=4i]YYL<SBO@`agFIh9j2
+Z1 dE:\Workspace\GIT\IC-Design\altera-de1\bai05\cau6\simulation\modelsim
+Z2 w1540454300
+Z3 8E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6/cau6.v
+Z4 FE:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6/cau6.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1541086579.116000
+Z7 !s107 E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6/cau6.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6|E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6/cau6.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6 -O0
+vcounter
+!i10b 1
+!s100 Vab;Ye8mGcm8Ddk]8TWQU3
+I4QdozbePk>d61GUUIJ[>z1
+V^i=44S23O@:E6_BPkj3K13
+R1
+R2
+R3
+R4
+L0 12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vDecoder_HEX
+!i10b 1
+!s100 ;G]UOE83lMeHM>;HEQ[zf2
+ImUEERb5O]6J;C__9n@FlX0
+VhJ^4?J<A9X7zFdP8^k6A42
+R1
+R2
+R3
+R4
+L0 25
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@decoder_@h@e@x

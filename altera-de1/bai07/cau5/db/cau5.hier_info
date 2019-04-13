@@ -1,0 +1,109 @@
+|cau5
+CLOCK_50 => CLOCK_50.IN1
+KEY[0] => KEY[0].IN1
+HEX0[6] <= decoder_BCD:dv.port1
+HEX0[5] <= decoder_BCD:dv.port1
+HEX0[4] <= decoder_BCD:dv.port1
+HEX0[3] <= decoder_BCD:dv.port1
+HEX0[2] <= decoder_BCD:dv.port1
+HEX0[1] <= decoder_BCD:dv.port1
+HEX0[0] <= decoder_BCD:dv.port1
+HEX1[6] <= decoder_BCD:ch.port1
+HEX1[5] <= decoder_BCD:ch.port1
+HEX1[4] <= decoder_BCD:ch.port1
+HEX1[3] <= decoder_BCD:ch.port1
+HEX1[2] <= decoder_BCD:ch.port1
+HEX1[1] <= decoder_BCD:ch.port1
+HEX1[0] <= decoder_BCD:ch.port1
+LEDR[0] <= count:comb_3.port5
+LEDG[0] <= count:comb_3.port4
+
+
+|cau5|count:comb_3
+CLK => red~reg0.CLK
+CLK => green~reg0.CLK
+CLK => giay1[0]~reg0.CLK
+CLK => giay1[1]~reg0.CLK
+CLK => giay1[2]~reg0.CLK
+CLK => giay1[3]~reg0.CLK
+CLK => giay0[0]~reg0.CLK
+CLK => giay0[1]~reg0.CLK
+CLK => giay0[2]~reg0.CLK
+CLK => giay0[3]~reg0.CLK
+CLK => count[0].CLK
+CLK => count[1].CLK
+CLK => count[2].CLK
+CLK => count[3].CLK
+CLK => count[4].CLK
+CLK => count[5].CLK
+CLK => count[6].CLK
+CLK => count[7].CLK
+CLK => count[8].CLK
+CLK => count[9].CLK
+CLK => count[10].CLK
+CLK => count[11].CLK
+CLK => count[12].CLK
+CLK => count[13].CLK
+CLK => count[14].CLK
+CLK => count[15].CLK
+CLK => count[16].CLK
+CLK => count[17].CLK
+CLK => count[18].CLK
+CLK => count[19].CLK
+CLK => count[20].CLK
+CLK => count[21].CLK
+CLK => count[22].CLK
+CLK => count[23].CLK
+CLK => count[24].CLK
+CLK => count[25].CLK
+CLK => count[26].CLK
+CLR => giay0.OUTPUTSELECT
+CLR => giay0.OUTPUTSELECT
+CLR => giay0.OUTPUTSELECT
+CLR => giay0.OUTPUTSELECT
+CLR => giay1.OUTPUTSELECT
+CLR => giay1.OUTPUTSELECT
+CLR => giay1.OUTPUTSELECT
+CLR => giay1.OUTPUTSELECT
+CLR => green.OUTPUTSELECT
+CLR => red.OUTPUTSELECT
+giay0[0] <= giay0[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay0[1] <= giay0[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay0[2] <= giay0[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay0[3] <= giay0[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay1[0] <= giay1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay1[1] <= giay1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay1[2] <= giay1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+giay1[3] <= giay1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+green <= green~reg0.DB_MAX_OUTPUT_PORT_TYPE
+red <= red~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|decoder_BCD:dv
+i[0] => Decoder0.IN3
+i[1] => Decoder0.IN2
+i[2] => Decoder0.IN1
+i[3] => Decoder0.IN0
+led[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau5|decoder_BCD:ch
+i[0] => Decoder0.IN3
+i[1] => Decoder0.IN2
+i[2] => Decoder0.IN1
+i[3] => Decoder0.IN0
+led[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

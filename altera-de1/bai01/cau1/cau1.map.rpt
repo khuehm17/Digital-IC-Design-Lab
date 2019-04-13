@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cau1
-Thu Oct 04 13:14:11 2018
+Thu Nov 08 13:59:26 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 04 13:14:10 2018      ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 08 13:59:26 2018      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; cau1                                       ;
 ; Top-level Entity Name              ; cau1                                       ;
@@ -143,21 +143,15 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -165,7 +159,7 @@ applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                            ; Library ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
-; cau1.v                           ; yes             ; User Verilog HDL File  ; D:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/cau1.v ;         ;
+; cau1.v                           ; yes             ; User Verilog HDL File  ; E:/Workspace/GIT/IC-Design/altera-de1/bai01/cau1/cau1.v ;         ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
 
 
@@ -238,9 +232,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Thu Oct 04 13:14:06 2018
+    Info: Processing started: Thu Nov 08 13:59:24 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cau1 -c cau1
-Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file cau1.v
     Info (12023): Found entity 1: cau1
 Info (12127): Elaborating entity "cau1" for the top level hierarchy
@@ -249,10 +243,10 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
 Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 10 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4627 megabytes
-    Info: Processing ended: Thu Oct 04 13:14:11 2018
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4624 megabytes
+    Info: Processing ended: Thu Nov 08 13:59:26 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

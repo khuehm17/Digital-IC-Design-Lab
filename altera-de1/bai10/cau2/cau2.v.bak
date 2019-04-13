@@ -1,0 +1,11 @@
+module cau2(SW, LEDR);
+	input [3:0]SW;
+	output [3:0]LEDR;
+	
+endmodule
+
+
+module demux1_4(d, s, en, f);
+	input d, en;
+	input [1:0]s;
+	output f;

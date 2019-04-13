@@ -1,0 +1,28 @@
+|cau2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+LEDR[0] <= demux1_4:comb_3.port3
+LEDR[1] <= demux1_4:comb_3.port3
+LEDR[2] <= demux1_4:comb_3.port3
+LEDR[3] <= demux1_4:comb_3.port3
+
+
+|cau2|demux1_4:comb_3
+d => f[3]$latch.DATAIN
+d => f[2]$latch.DATAIN
+d => f[1]$latch.DATAIN
+d => f[0]$latch.DATAIN
+s[0] => Decoder0.IN1
+s[1] => Decoder0.IN0
+en => f[3]$latch.ACLR
+en => f[2]$latch.ACLR
+en => f[1]$latch.ACLR
+en => f[0]$latch.ACLR
+f[0] <= f[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

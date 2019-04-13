@@ -1,0 +1,52 @@
+module cau2(SW,LEDR,HEX0);
+	input [2:0]SW;
+	output [3:0]LEDR;
+	output [6:0]HEX0;
+	wire [3:0]A = 4'b0110;
+	wire [3:0]B = 4'b0101;
+	alu(SW[2:0],A,B,LEDR);
+	decoder(LEDR,HEX0);
+endmodule
+module alu(sel,x,y,z);
+	input [2:0]sel;
+	input wire [3:0]x,y;
+	output reg [3:0]z;
+	always @(sel)
+	case (sel)
+		3'b000 : 
+			begin
+				z = ~x;
+			end
+		3'b001 : 
+			begin
+				z = x & y;
+			end
+		3'b010 : 
+			begin
+				z = x | y;
+			end
+		3'b100 : 
+			begin 
+				z = x ^ y;
+			end
+		default : z = 4'b0000;
+	endcase 
+endmodule
+
+module decoder(c,hex);
+	input [3:0]c;
+	output reg [6:0]hex;
+	always@(c)
+	case (c)
+		4'b 0000: hex = 7'b 1000000;
+		4'b 0001: hex = 7'b 1111001;
+		4'b 0010: hex = 7'b 0100100;
+		4'b 0011: hex = 7'b 0110000;
+		4'b 0100: hex = 7'b 0011001;
+		4'b 0101: hex = 7'b 0010010;
+		4'b 0110: hex = 7'b 0000010;
+		4'b 0111: hex = 7'b 1111000;
+		4'b 1000: hex = 7'b 0000000;
+		4'b 1001: hex = 7'b 0010000;
+	endcase
+endmodule

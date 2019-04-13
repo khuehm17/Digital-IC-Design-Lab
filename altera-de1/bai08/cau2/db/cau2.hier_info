@@ -1,0 +1,106 @@
+|cau2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= LEDR[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= LEDR[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= LEDR[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= decoder:comb_12.port1
+HEX0[1] <= decoder:comb_12.port1
+HEX0[2] <= decoder:comb_12.port1
+HEX0[3] <= decoder:comb_12.port1
+HEX0[4] <= decoder:comb_12.port1
+HEX0[5] <= decoder:comb_12.port1
+HEX0[6] <= decoder:comb_12.port1
+
+
+|cau2|alu:comb_11
+A[0] => ALU_OUT.IN0
+A[0] => ALU_OUT.IN0
+A[0] => ALU_OUT.IN0
+A[0] => Mux3.IN4
+A[1] => ALU_OUT.IN0
+A[1] => ALU_OUT.IN0
+A[1] => ALU_OUT.IN0
+A[1] => Mux2.IN4
+A[2] => ALU_OUT.IN0
+A[2] => ALU_OUT.IN0
+A[2] => ALU_OUT.IN0
+A[2] => Mux1.IN4
+A[3] => ALU_OUT.IN0
+A[3] => ALU_OUT.IN0
+A[3] => ALU_OUT.IN0
+A[3] => Mux0.IN4
+B[0] => ALU_OUT.IN1
+B[0] => ALU_OUT.IN1
+B[0] => ALU_OUT.IN1
+B[1] => ALU_OUT.IN1
+B[1] => ALU_OUT.IN1
+B[1] => ALU_OUT.IN1
+B[2] => ALU_OUT.IN1
+B[2] => ALU_OUT.IN1
+B[2] => ALU_OUT.IN1
+B[3] => ALU_OUT.IN1
+B[3] => ALU_OUT.IN1
+B[3] => ALU_OUT.IN1
+opcode[0] => Mux0.IN10
+opcode[0] => Mux1.IN10
+opcode[0] => Mux2.IN10
+opcode[0] => Mux3.IN10
+opcode[1] => Mux0.IN9
+opcode[1] => Mux1.IN9
+opcode[1] => Mux2.IN9
+opcode[1] => Mux3.IN9
+opcode[2] => Mux0.IN8
+opcode[2] => Mux1.IN8
+opcode[2] => Mux2.IN8
+opcode[2] => Mux3.IN8
+ALU_OUT[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+ALU_OUT[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+ALU_OUT[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+ALU_OUT[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau2|decoder:comb_12
+c[0] => Mux0.IN19
+c[0] => Mux1.IN19
+c[0] => Mux2.IN19
+c[0] => Mux3.IN19
+c[0] => Mux4.IN19
+c[0] => Mux5.IN19
+c[0] => Mux6.IN19
+c[0] => Mux7.IN19
+c[1] => Mux0.IN18
+c[1] => Mux1.IN18
+c[1] => Mux2.IN18
+c[1] => Mux3.IN18
+c[1] => Mux4.IN18
+c[1] => Mux5.IN18
+c[1] => Mux6.IN18
+c[1] => Mux7.IN18
+c[2] => Mux0.IN17
+c[2] => Mux1.IN17
+c[2] => Mux2.IN17
+c[2] => Mux3.IN17
+c[2] => Mux4.IN17
+c[2] => Mux5.IN17
+c[2] => Mux6.IN17
+c[2] => Mux7.IN17
+c[3] => Mux0.IN16
+c[3] => Mux1.IN16
+c[3] => Mux2.IN16
+c[3] => Mux3.IN16
+c[3] => Mux4.IN16
+c[3] => Mux5.IN16
+c[3] => Mux6.IN16
+c[3] => Mux7.IN16
+hex[0] <= hex[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= hex[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= hex[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= hex[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex[6] <= hex[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

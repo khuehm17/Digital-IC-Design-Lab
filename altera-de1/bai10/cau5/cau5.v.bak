@@ -1,0 +1,12 @@
+module cau5(SW, LEDR);
+
+endmodule
+
+
+module fulladder1bit(cin,a,b,s,cout);
+	input cin,a,b;
+	output s,cout;
+	assign s=a^b^cin;
+	assign cout=(a&b)|(cin&a)|(cin&b);
+endmodule
+

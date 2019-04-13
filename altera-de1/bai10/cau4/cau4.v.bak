@@ -1,0 +1,9 @@
+module cau4(SW, HEX0, HEX1);
+
+endmodule
+
+
+module bin_to_dec(b, d1, d0);
+
+endmodule
+

@@ -1,0 +1,72 @@
+|cau2
+clock_50 => clock_50.IN1
+KEY[0] => KEY[0].IN1
+HEX0[0] <= seg70:comb_4.port1
+HEX0[1] <= seg70:comb_4.port1
+HEX0[2] <= seg70:comb_4.port1
+HEX0[3] <= seg70:comb_4.port1
+HEX0[4] <= seg70:comb_4.port1
+HEX0[5] <= seg70:comb_4.port1
+HEX0[6] <= seg70:comb_4.port1
+SW[0] => SW[0].IN1
+
+
+|cau2|counter:comb_3
+enable => count[0]~reg0.ENA
+enable => count[3]~reg0.ENA
+enable => count[2]~reg0.ENA
+enable => count[1]~reg0.ENA
+clock => count[0]~reg0.CLK
+clock => count[1]~reg0.CLK
+clock => count[2]~reg0.CLK
+clock => count[3]~reg0.CLK
+clock => delay[0].CLK
+clock => delay[1].CLK
+clock => delay[2].CLK
+clock => delay[3].CLK
+clock => delay[4].CLK
+clock => delay[5].CLK
+clock => delay[6].CLK
+clock => delay[7].CLK
+clock => delay[8].CLK
+clock => delay[9].CLK
+clock => delay[10].CLK
+clock => delay[11].CLK
+clock => delay[12].CLK
+clock => delay[13].CLK
+clock => delay[14].CLK
+clock => delay[15].CLK
+clock => delay[16].CLK
+clock => delay[17].CLK
+clock => delay[18].CLK
+clock => delay[19].CLK
+clock => delay[20].CLK
+clock => delay[21].CLK
+clock => delay[22].CLK
+clock => delay[23].CLK
+clock => delay[24].CLK
+clock => delay[25].CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cau2|seg70:comb_4
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

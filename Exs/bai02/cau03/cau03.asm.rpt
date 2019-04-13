@@ -1,6 +1,6 @@
 Assembler report for cau03
-Tue Sep 25 23:40:21 2018
-Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
+Tue Jan 15 20:51:55 2019
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -10,8 +10,8 @@ Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Editio
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof
-  6. Assembler Device Options: D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof
+  5. Assembler Device Options: E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof
+  6. Assembler Device Options: E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof
   7. Assembler Messages
 
 
@@ -19,7 +19,7 @@ Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Editio
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2013 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Sep 25 23:40:21 2018 ;
+; Assembler Status      ; Successful - Tue Jan 15 20:51:55 2019 ;
 ; Revision Name         ; cau03                                 ;
 ; Top-level Entity Name ; cau03                                 ;
 ; Family                ; Cyclone II                            ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 ; Clock source for configuration device                                       ; Internal ; Internal      ;
 ; Clock frequency of the configuration device                                 ; 10 MHZ   ; 10 MHz        ;
 ; Divide clock frequency by                                                   ; 1        ; 1             ;
-; Auto user code                                                              ; Off      ; Off           ;
+; Auto user code                                                              ; On       ; On            ;
 ; Use configuration device                                                    ; On       ; On            ;
 ; Configuration device                                                        ; Auto     ; Auto          ;
 ; Configuration device auto user code                                         ; Off      ; Off           ;
@@ -83,30 +83,30 @@ applicable agreement for further details.
 +------------------------------------------------------+
 ; File Name                                            ;
 +------------------------------------------------------+
-; D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof ;
-; D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof ;
+; E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof ;
+; E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof ;
 +------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof ;
+; Assembler Device Options: E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.sof ;
 +----------------+---------------------------------------------------------------+
 ; Option         ; Setting                                                       ;
 +----------------+---------------------------------------------------------------+
 ; Device         ; EP2C70F672C6                                                  ;
-; JTAG usercode  ; 0xFFFFFFFF                                                    ;
-; Checksum       ; 0x00606EC8                                                    ;
+; JTAG usercode  ; 0x00606E55                                                    ;
+; Checksum       ; 0x00606E55                                                    ;
 +----------------+---------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof ;
+; Assembler Device Options: E:/Workspace/GIT/IC-Design/Exs/bai02/cau03/cau03.pof ;
 +--------------------+-----------------------------------------------------------+
 ; Option             ; Setting                                                   ;
 +--------------------+-----------------------------------------------------------+
 ; Device             ; EPCS16                                                    ;
 ; JTAG usercode      ; 0x00000000                                                ;
-; Checksum           ; 0x187F895A                                                ;
+; Checksum           ; 0x187F7A68                                                ;
 ; Compression Ratio  ; 3                                                         ;
 +--------------------+-----------------------------------------------------------+
 
@@ -115,16 +115,16 @@ applicable agreement for further details.
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Assembler
-    Info: Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Sep 25 23:39:55 2018
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Tue Jan 15 20:51:50 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off cau03 -c cau03
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 369 megabytes
-    Info: Processing ended: Tue Sep 25 23:40:22 2018
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:22
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4584 megabytes
+    Info: Processing ended: Tue Jan 15 20:51:55 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 

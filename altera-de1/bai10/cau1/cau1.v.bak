@@ -1,0 +1,8 @@
+module cau1(SW, LEDR);
+	
+endmodule
+
+module mux2_1(in, s, out);
+
+endmodule
+

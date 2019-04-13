@@ -1,0 +1,21 @@
+# Reading C:/Program Files/Quartus2/modelsim_ase/tcl/vsim/pref.tcl 
+# do cau6_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Program Files\Quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Program Files\Quartus2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6 {E:/Workspace/GIT/IC-Design/altera-de1/bai05/cau6/cau6.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cau6
+# -- Compiling module counter
+# -- Compiling module Decoder_HEX
+# 
+# Top level modules:
+# 	cau6
+# 

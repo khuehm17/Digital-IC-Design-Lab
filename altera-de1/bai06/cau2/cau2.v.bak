@@ -1,0 +1,49 @@
+module bai1 (CLOCK_50, KEY, HEX0);
+	input CLOCK_50;
+	input [0:0]KEY;
+	output [6:0]HEX0;
+	wire [3:0]a;
+	counter (CLOCK_50, KEY[0],a);
+	decoder (a,HEX0);
+endmodule
+module counter (clock, reset, BCD0);
+			input reset, clock;
+			output reg[3:0]BCD0;
+			reg [25:0]count;
+always @ (posedge clock)
+begin 
+if (count == 49999999)
+				count <= 0 ;
+			else 
+				count <= count +1 ;
+end
+always @ (posedge clock)
+	if(!reset)
+		BCD0 <= 0;
+		else
+		if (count == 0)
+		begin
+			if(BCD0>9)
+				BCD0<=0;
+			else
+				BCD0 <= BCD0 +1;
+		end
+endmodule
+module decoder (c,HEX);
+	input [3:0]c;
+	output reg [6:0]HEX;
+	always @ (c)
+	case(c)
+		4'b0000: HEX = 7'b1000000;
+		4'b0001: HEX = 7'b1111001;
+		4'b0010: HEX = 7'b0100100;
+		4'b0011: HEX = 7'b0110000;
+		4'b0100: HEX = 7'b0011001;
+		4'b0101: HEX = 7'b0010010;
+		4'b0110: HEX = 7'b0000010;
+		4'b0111: HEX = 7'b1111000;
+		4'b1000: HEX = 7'b0000000;
+		4'b1001: HEX = 7'b0010000;
+		default: HEX = 7'b1111111;
+			endcase
+endmodule

@@ -1,0 +1,16 @@
+|cau1
+SW[0] => SW[0].IN1
+SW[1] => comb.IN0
+SW[1] => comb.IN0
+SW[2] => comb.IN1
+SW[2] => comb.IN1
+LEDR[0] <= mux2_1:comb_3.port3
+
+
+|cau1|mux2_1:comb_3
+x => m_out.DATAA
+y => m_out.DATAB
+s => m_out.OUTPUTSELECT
+m_out <= m_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
