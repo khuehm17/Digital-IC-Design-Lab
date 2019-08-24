@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Workspace\GIT\IC-Design\hdlbits\hdl_proj\simulation\modelsim
+vtop_module
+!i10b 1
+!s100 c880621EJ:ed>gZ@GEP:50
+IE6PBeNHTe?XYY>fReoYW>2
+VN2zJ:eik>]Yhogb[Ob?G;0
+Z1 dD:\Workspace\GIT\IC-Design\hdlbits\hdl_proj\simulation\modelsim
+w1566400282
+8top_module_6_1200mv_85c_slow.vo
+Ftop_module_6_1200mv_85c_slow.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1566400362.795000
+!s107 top_module_6_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|top_module_6_1200mv_85c_slow.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

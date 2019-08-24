@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/top_module.v
+source_file = 1, D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/Waveform.vwf
+source_file = 1, D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/db/top_module.cbx.xml
+design_name = top_module
+instance = comp, \y~output , y~output, top_module, 1
+instance = comp, \x1~input , x1~input, top_module, 1
+instance = comp, \x2~input , x2~input, top_module, 1
+instance = comp, \x3~input , x3~input, top_module, 1
+instance = comp, \comb~0 , comb~0, top_module, 1

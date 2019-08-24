@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Workspace\GIT\IC-Design\hdlbits\hdl_proj\simulation\modelsim
+vtop_module
+!i10b 1
+!s100 <8Ck2U;KblCEhCE^<<n8>0
+IS7a=QPn?oRd8>UmZnCRO12
+VN2zJ:eik>]Yhogb[Ob?G;0
+Z1 dD:\Workspace\GIT\IC-Design\hdlbits\hdl_proj\simulation\modelsim
+w1566401959
+8D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/top_module.v
+FD:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/top_module.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1566402012.383000
+!s107 D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/top_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj|D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj/top_module.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+D:/Workspace/GIT/IC-Design/hdlbits/hdl_proj -O0
